@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header,
+section h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header h1 {
+    margin: 0px auto;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bg_menu {background: #d3d3d3;}
+.space_bottom {margin-bottom: 10px;}
+
+header {
+    padding: 16px 0px;
+    color: #fff;
+}
+
+header nav {
+    width: 100%;
+    text-align: center;
+    margin: 20px 20px;
+
+}
+
+header nav li {
+    margin-left: 16px;
+    font-size: 18px;
+    display: inline;
+}
+
+header nav li a {
+    color: #2f2f2f;
+    text-decoration: none;
+    margin: 0px auto;
+    font-weight: bold;
+    padding: 10px;
+}
+
+header nav li a:hover {
+    background: #2f2f2f;
+    color: #fff;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section h2 {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+    max-width: 420px;
+}
+
+section .servicos_titulo h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer .footer_titulo h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer div{margin: 10px 10px;}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .container address{margin: 30px 30px;}
