@@ -18,8 +18,13 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.bg_menu {background: #d3d3d3;}
-.space_bottom {margin-bottom: 10px;}
+.bg_menu {
+    background: #d3d3d3;
+}
+
+.space_bottom {
+    margin-bottom: 10px;
+}
 
 header {
     padding: 16px 0px;
@@ -107,11 +112,34 @@ footer .footer_titulo h2 {
     margin-bottom: 20px;
 }
 
-footer div{margin: 10px 10px;}
+footer div {
+    margin: 10px 10px;
+}
 
 footer .container {
     display: flex;
     justify-content: center;
 }
 
-footer .container address{margin: 30px 30px;}
+footer .container form input {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+footer .container form textarea {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+footer .container form button {
+    cursor: pointer;
+    padding: 5px;
+}
+
+footer .container address {
+    margin: 30px 30px;
+}
